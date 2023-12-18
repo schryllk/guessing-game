@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Guessing Game</title>
+</head>
+
+<body>
+    <!-- burger menu start -->
+    <nav class="hamburger-menu">
+        <ul>
+            <li id="about"><a href="#"></a>ABOUT</li>
+            <li id="connect"><a href="#"></a>CONNECT</li>
+        </ul>
+    </nav>
+    <!-- burger menu end -->
+    <div class="wrapper-main">
+        <div class="header-main">
+            <nav>
+                <div class="header-left">
+                    <div id="logo">||0101||NUMBER GUESSING GAME||1010||</div>
+                </div>
+                <!-- div for the burger menu -->
+                <div class="header-right">
+                    <ul>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">CONNECT</a></li>
+                    </ul>
+                </div>
+                <div class="burger-menu-btn"></div>
+            </nav>
+        </div>
+
+        <main>
+            <p id="intro">
+                Hello there! Welcome to my first JavaScript project, the Number Guessing
+                Game. It's a simple project that helped me get familiar with JavaScript.
+                Check it out. Give it a try and see if you can guess the right number. <br><br>
+            </p>
+            <br />
+            <div class="game-box">
+                <p id="pick">Pick a number between 1-10</p>
+                <p id="guess">
+                    Enter a guess:
+                    <input id="guess-block" type="text" />
+                    <button id="submit-button">Submit</button>
+                </p>
+                <p>Result: <span id="result-message"> </span></p>
+                <button id="reset-button">Reset</button>
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </div>
+</body>
+
+</html>
